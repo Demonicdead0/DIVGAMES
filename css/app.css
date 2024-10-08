@@ -1,0 +1,27 @@
+*{
+    
+}
+
+body{
+    background-color: black;
+}
+
+h1, h2,h3,h4,h5{
+    color: white;
+}
+
+p{
+    color:aliceblue;
+    text-align: justify;
+}
+
+header{
+    border-bottom-style: solid;
+    border-color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.card-image{
+    border-style: double none double none;
+    border-color: white;
+}
