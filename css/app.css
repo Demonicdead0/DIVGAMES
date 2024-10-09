@@ -25,3 +25,21 @@ header{
     border-style: double none double none;
     border-color: white;
 }
+
+.square-256{
+    height: 256px;
+    width: 256px;
+    padding: 3px;
+}
+
+.square-128{
+    height: 128px;
+    width: 128px;
+    padding: 3px;
+}
+
+.square-64{
+    height: 64px;
+    width: 64px;
+    padding: 3px;
+}
