@@ -3,48 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DIVGAME</title>
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
-  
-  <link rel="icon" href="img/divgames_blanco_cuadrado.ico">
+  <title>DivGame</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header class="grid-padding-x">
-    <div class="grid-x  grid-padding-y">
-      <div class="cell small-12 medium-6" style="padding-left: 15px;">
-        <h4><b>DIVGAME</b></h4>
-      </div>
-      <div class="cell small-12 medium-6">
-        <ul class="menu icon-left align-right">
-          <li class="is-active"> <a href="#"> <span>Inicio</span></a></li>
-          <li> <a href="html/proyecto.html"> <span>Proyectos</span></a></li>
-          <li> <a href="#"> <span>Recursos</span></a></li>
-          <li> <a href="#"> <span>Contacto</span></a></li>
-        </ul>
+<body class="bg-gray-900">
+  <!-- Creamos el navegador -->
+  <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6">
+
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <span class="font-semibold text-xl tracking-tight">DIVGAME</span>
+    </div>
+
+    <div class="block lg:hidden">
+      <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">=</button>
+    </div>
+    
+    <div class="w-full block flex-row-reverse flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="text-sm lg-flex:grow">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Sobre nosotros
+        </a>
+
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Proyectos
+        </a>
+
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Contactos
+        </a>
       </div>
     </div>
-  </header>
+  </nav>
 
-  <div>
-    <img class="float-center" src="img/logo.jpg" style="height: 256px; width: 256px;">
+  <!--  logo principal-->
+  <div class="container bg-gray-800 p-10 my-2">
+    <img class="mx-auto size-64 rounded-full hover:shadow-lg hover:shadow-gray-500" src="img/logo.jpg">
   </div>
 
-  <div class="grid-container grid-padding-y">
-    <div class="cell">
-      <h4><b>Sobre Nosotros</b></h4>
-      <p>
+  <!-- Sobre nosotros-->
+  <div class="container mx-auto bg-gray-800 p-10">
+    <div class="bg-gray-800">
+      <h1 class="text-3xl font-mono text-teal-200 font-semibold hover:text-white">Sobre nosotros</h1>
+      <p class="text-lg font-mono text-white">
         Divgame es un círculo de estudio creado en la carrera profesional de Ingeniería Informática y de Sistemas con el objetivo de desarrollar 
         proyectos relacionados a la industria del entretenimiento, siendo un mercado muy popular entre las comunidades más jóvenes.
       </p>
     </div>
   </div>
-
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="cell small-12 medium-6">
-        <h4><b>Misión</b></h4>
-        <p>
+  
+  <!-- Misión y visión -->
+   
+   <div class="container mx-auto bg-gray-900 py-2 px-3">
+    <div class="columns-2">
+      
+      <div class="bg-gray-800 py-10 px-10">
+        <h1 class="text-3xl font-mono text-teal-200 font-semibold hover:text-white">Misión</h1>
+        <p class="text-lg font-mono text-white">
           La misión de este círculo de estudios es fomentar el 
           aprendizaje, la investigación y la colaboración entre 
           sus miembros en el campo de la creación y desarrollo de 
@@ -55,9 +69,10 @@
           proyectos innovadores.
         </p>
       </div>
-      <div class="cell small-12 medium-6">
-        <h4><b>Visión</b></h4>
-        <p>
+
+      <div class="bg-gray-800 py-10 px-10">
+        <h1 class="text-3xl font-mono text-teal-200 font-semibold hover:text-white">Visión</h1>
+        <p class="text-lg font-mono text-white">
           La visión de este círculo de estudios es convertirse en 
           un referente reconocido en la comunidad académica y de 
           desarrollo de videojuegos. Aspiramos a ser un centro 
@@ -65,98 +80,103 @@
           inspiración, apoyo y oportunidades para convertir 
           sus ideas creativas en videojuegos exitosos. Buscamos 
           impactar positivamente en la industria y promover
-           la pasión por la innovación en el mundo de los
-            videojuegos.
+          la pasión por la innovación en el mundo de los videojuegos.
         </p>
       </div>
+
     </div>
+   </div>
+
+   <div>
+    <h1 class="bg-gray-700 text-3xl text-teal-200 px-10">Junta directiva</h1>
+    <!-- Junta directiva-->
+    <div class="bg-gray-700">
+
+    </div>
+  <div class="flex flex-wrap bg-gray-700 min-w-100 p-10">
+        <div class="py-8 px-8 m-1 max-w-sm mx-auto bg-gray-700 rounded-xl shadow-lg space-y sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+          <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="img/jhamsid.jpg">
+
+          <div class="text-center space-y-2 sm:text-left">
+            <div class="space-y-0.5">
+              <p class="text-lg text-black font-semibold">
+                Jhamsid Romero Bernal
+              </p>
+              <p class="text-slate-500 font-medium">
+                Presidente
+              </p>
+            </div>
+            <button class="px-4 py-1 text-sm text-teal-200 font-semibold rounded-full border border-teal-200 hover:text-white hover:bg-teal-200 hover:border-transparent focus:ring-2 focus:ring-teal-200 focus:ring-offset-2">Contacto</button>
+          </div>
+      </div>
+
+      <div class="py-8 px-8 m-1 max-w-sm mx-auto bg-gray-700 rounded-xl shadow-lg space-y sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+        <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="img/milder.jpg">
+
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              Milder Muñoz Centeno
+            </p>
+            <p class="text-slate-500 font-medium">
+              Vicepresidente
+            </p>
+          </div>
+          <button class="px-4 py-1 text-sm text-teal-200 font-semibold rounded-full border border-teal-200 hover:text-white hover:bg-teal-200 hover:border-transparent focus:ring-2 focus:ring-teal-200 focus:ring-offset-2">Contacto</button>
+        </div>
+    </div>
+
+    <div class="py-8 px-8 m-1 max-w-sm mx-auto bg-gray-700 rounded-xl shadow-lg space-y sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="img/ismael.JPG">
+
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            Ismael Gerson Ramos Álvarez
+          </p>
+          <p class="text-slate-500 font-medium">
+            Secretario
+          </p>
+        </div>
+        <button class="px-4 py-1 text-sm text-teal-200 font-semibold rounded-full border border-teal-200 hover:text-white hover:bg-teal-200 hover:border-transparent focus:ring-2 focus:ring-teal-200 focus:ring-offset-2">Contacto</button>
+      </div>
+  </div>
+      <div class="py-8 px-8 m-1 max-w-sm mx-auto bg-gray-700 rounded-xl shadow-lg space-y sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+        <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="img/wilson.PNG">
+
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              Rony Wilson Quinaya Mejía
+            </p>
+            <p class="text-slate-500 font-medium">
+              Vocal principal
+            </p>
+          </div>
+          <button class="px-4 py-1 text-sm text-teal-200 font-semibold rounded-full border border-teal-200 hover:text-white hover:bg-teal-200 hover:border-transparent focus:ring-2 focus:ring-teal-200 focus:ring-offset-2">Contacto</button>
+        </div>
+    </div>
+
+    <div class="py-8 px-8 m-1 max-w-sm mx-auto bg-gray-700 rounded-xl shadow-lg space-y sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="img/horus.JPG">
+
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            Horus Sánchez Enciso
+          </p>
+          <p class="text-slate-500 font-medium">
+            Vocal secundario
+          </p>
+        </div>
+        <button class="px-4 py-1 text-sm text-teal-200 font-semibold rounded-full border border-teal-200 hover:text-white hover:bg-teal-200 hover:border-transparent focus:ring-2 focus:ring-teal-200 focus:ring-offset-2">Contacto</button>
+      </div>
   </div>
 
-  <div class="grid-container">
-    <div class="grid-x align-center-middle grid-padding-y">
-      <div class="cell large-4 medium-6">
-        <div class="card" style="width: 256px; background-color: black; margin: auto;"> 
-          <div class="card-divider" style="background-color: black; margin: auto;">
-            <h3 ><b>Presidente</b></h3>
-          </div>
-          <img class="card-image" src="img/jhamsid.jpg" style="height: 256px; width: 256px;">
-          <div>
-            <h4>Jhamsid Romero Bernal</h4>
-            <p>
-              Estudiante de la carrera profesional de Ingeniería 
-              informática y de Sistemas.
-            </p>
-          </div>
-        </div>
-      </div>  
-
-
-      <div class="cell large-4 medium-6">
-        <div class="card" style="width: 256px; background-color: black; margin: auto;"> 
-          <div class="card-divider" style="background-color: black; margin: auto;">
-            <h3><b>Vicepresidente</b></h3>
-          </div>
-          <img class="card-image" src="img/milder.jpg" style="height: 256px; width: 256px;">
-          <div>
-            <h4>Milder Muñoz Centeno</h4>
-            <p>
-              Estudiante de la carrera profesional de Ingeniería 
-              informática y de Sistemas.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cell large-4">
-        <div class="card" style="width: 256px; background-color: black; margin: auto;"> 
-          <div class="card-divider" style="background-color: black; margin: auto;">
-            <h3><b>Secretario</b></h3>
-          </div>
-          <img class="card-image" src="img/ismael.JPG" style="height: 256px; width: 256px;">
-          <div>
-            <h4>Ismael Ramos Gerson Álvarez</h4>
-            <p>
-              Estudiante de la carrera profesional de Ingeniería 
-              informática y de Sistemas.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cell large-6">
-        <div class="card" style="width: 256px; background-color: black; margin: auto;"> 
-          <div class="card-divider" style="background-color: black; margin: auto;">
-            <h3><b>Vocal</b></h3>
-          </div>
-          <img class="card-image" src="img/horus.JPG" style="height: 256px; width: 256px;">
-          <div>
-            <h4>Horus Hugo Sánchez Enciso</h4>
-            <p>
-              Estudiante de la carrera profesional de Ingeniería 
-              informática y de Sistemas.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cell large-6">
-        <div class="card" style="width: 256px; background-color: black; margin: auto;"> 
-          <div class="card-divider" style="background-color: black; margin: auto;">
-            <h3><b>Vocal</b></h3>
-          </div>
-          <img class="card-image" src="img/wilson.PNG" style="height: 256px; width: 256px;">
-          <div>
-            <h4>Rony Wilson Quinaya Mejía</h4>
-            <p>
-              Estudiante de la carrera profesional de Ingeniería 
-              informática y de Sistemas.
-            </p>
-          </div>
-        </div>
-      </div>
+  
+    <!-- Fin Junta directiva-->
     </div>
-  </div>
-
-
-</body >
-</html>
+   </div>
+    
+</body>
+</html> 
